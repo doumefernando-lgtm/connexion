@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
           );
         },
       ),
-      appBar: AppBar(title: Text("Bienvenue")),
+      appBar: AppBar(title: Text("Bienvenue"), centerTitle: true),
       drawer: Drawer(),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 12),
